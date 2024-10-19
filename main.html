@@ -8,6 +8,30 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	 <form id="myForm" action="submit-form.php" method="POST">
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+
+    <div>
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" required>
+    </div>
+
+    <div>
+      <label>
+        <input type="checkbox" id="terms" name="terms"> I accept the terms and conditions
+      </label>
+    </div>
+
+    <button type="submit" id="submitBtn" disabled>Submit</button>
+  </form>
     <script type="text/javascript" src="./script.js">
 </script>
 
